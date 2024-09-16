@@ -1,0 +1,10 @@
+type HealthPlan = 
+ record {
+   description: text;
+   name: text;
+   price: nat;
+ };
+service : {
+  addHealthPlan: (text, text, nat) -> ();
+  getHealthPlans: () -> (vec HealthPlan) query;
+}

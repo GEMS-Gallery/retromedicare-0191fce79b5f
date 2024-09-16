@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RetroHealth.gov</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>RetroHealth.gov</h1>
+            <marquee>Welcome to the future of healthcare... from the past!</marquee>
+        </header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#plans">Health Plans</a>
+            <a href="#add">Add Plan</a>
+        </nav>
+        <main>
+            <section id="home">
+                <h2>Welcome to RetroHealth.gov</h2>
+                <p>Bringing you the best in health coverage, with a blast from the past!</p>
+                <img src="https://web.archive.org/web/20090830103230/http://geocities.com/hk/spinning_globe.gif" alt="Spinning Globe">
+            </section>
+            <section id="plans">
+                <h2>Available Health Plans</h2>
+                <div id="planList"></div>
+            </section>
+            <section id="add">
+                <h2>Add New Health Plan</h2>
+                <form id="addPlanForm">
+                    <input type="text" id="planName" placeholder="Plan Name" required>
+                    <textarea id="planDescription" placeholder="Plan Description" required></textarea>
+                    <input type="number" id="planPrice" placeholder="Price" required>
+                    <button type="submit">Add Plan</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>© 2023 RetroHealth.gov - Best viewed with Netscape Navigator</p>
+        </footer>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>

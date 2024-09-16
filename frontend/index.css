@@ -1,0 +1,91 @@
+body {
+    font-family: "Comic Sans MS", cursive;
+    background: url('https://web.archive.org/web/20090830103230/http://geocities.com/hk/stars.gif');
+    color: #FF00FF;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #00FFFF;
+    border: 5px solid #FF0000;
+    box-shadow: 0 0 10px #FFFF00;
+}
+
+header {
+    background-color: #FF00FF;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #FFFF00;
+    text-shadow: 2px 2px #FF0000;
+}
+
+marquee {
+    background-color: #000000;
+    color: #00FF00;
+}
+
+nav {
+    background-color: #FF6600;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #FF0000;
+    text-decoration: underline;
+}
+
+.plan {
+    background-color: #FFFF00;
+    border: 3px dashed #0000FF;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea, button {
+    font-family: inherit;
+    padding: 5px;
+}
+
+button {
+    background-color: #00FF00;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
